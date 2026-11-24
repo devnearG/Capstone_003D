@@ -21,8 +21,8 @@
 | Integrante | Rol Principal | Responsabilidades Clave |
 |---|---|---|
 | **Fabrizio Martínez** | **Lead Frontend & UI/UX** | Arquitectura SPA (React 19 + TypeScript), accesibilidad WCAG 2.1 AA, internacionalización (i18n), optimización Core Web Vitals y diseño de componentes. |
-| **Matías González** | **Backend & Base de Datos** | API REST (FastAPI), arquitectura modular, modelos relacionales (SQLAlchemy/PostgreSQL/SQLite) y lógica de scoring 5D. |
-| **Matías López** | **Finanzas & Pagos** | Lógica de cotización, matriz de precios, integración de pasarela de pagos (Stripe) y validación de upgrades. |
+| **Matías López** | **Backend & Base de Datos** | API REST (FastAPI), arquitectura modular, modelos relacionales (SQLAlchemy/PostgreSQL/SQLite) y lógica de scoring 5D. |
+| **Matías González** | **Finanzas & Pagos** | Lógica de cotización, matriz de precios, integración de pasarela de pagos (Stripe) y validación de upgrades. |
 
 ---
 
