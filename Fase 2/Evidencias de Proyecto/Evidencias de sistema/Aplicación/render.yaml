@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: tryaigap-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /health
+    plan: free
+    envVars:
+      - key: APP_ENV
+        value: prod
+      - key: API_V1_PREFIX
+        value: /api/v1
+      - key: CORS_ORIGINS
+        value: https://tryaigap.vercel.app,http://localhost:5173
+      - key: WEB_APP_URL
+        value: https://tryaigap.vercel.app
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: SUPABASE_URL
+        value: https://fnstczsabberojliouio.supabase.co
+      - key: SUPABASE_JWT_SECRET
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false

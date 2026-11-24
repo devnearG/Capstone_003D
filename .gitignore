@@ -15,3 +15,29 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+
+# Artefactos y Scaffolding de IA
+.agents/
+.gemini/
+.claude/
+.opencode/
+tasks/
+skills/
+
+# Dependencias y Entornos de Ejecución
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Variables de Entorno y Bases Locales
+.env
+.env.*
+!.env.example
+*.sqlite
+dev.db
